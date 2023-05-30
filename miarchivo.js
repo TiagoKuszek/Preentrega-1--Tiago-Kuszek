@@ -30,7 +30,7 @@ let comando;
                         if (pago >= 1 ){
                             alert("Se realizo el pago correctamente")
                         }
-                        else if (pago <= 1){
+                        else if (pago < 1){
                             alert("El pago fue rechazado")
 				}
                 break;
